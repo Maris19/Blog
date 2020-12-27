@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+    width: 100%;
+}
+.header{
+	width: 50%;
+    height: 80px;
+}
+.left{
+    width: 50%;
+    height: 800px;
+	position: absolute;
+	background-color: #6200EA;
+}
+.column{
+	width: 540px;
+	height: 360px;
+	margin-left: 130px;
+    margin-top: 140px;
+}
+.column h1{
+	position: absolute;
+    margin-top: 62px;
+    margin-left: 120px;
+    font-size: 30px;
+    color: white;
+}
+.right{
+    width: 50%;
+    height: 800px;
+	position: absolute;
+	margin-left: 50%;
+	background-image: url(black.jpg);
+	background-size: cover;
+}
+.column1{
+	position: absolute;
+    margin-top: 130px;
+    margin-left: 930px;
+    width: 540px;
+	height: 540px;
+	background-color: white;
+	border-radius: 15px;
+}
+.column1 h1{
+	margin-top: 60px;
+    margin-left: 60px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.touch {
+    margin-top: 60px;
+	margin-left: 60px;
+	filter: invert(1);
+	position: absolute;
+}
+.column h2{
+	margin-top: 162px;
+    margin-left: 120px;
+    font-size: 30px;
+	color: white;
+	position: absolute;
+	margin-left: 120px;
+}
+.micro {
+    margin-top: 160px;
+	margin-left: 60px;
+	filter: invert(1);
+	position: absolute;
+}
+.column h3{
+	margin-top: 262px;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+.smiley {
+	position: absolute;
+	width: 40px;
+    margin-top: 260px;
+	margin-left: 60px;
+	filter: invert(1);
+}
+.login{
+	background-color: #F4F3F5;
+    width: 420px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.login p{
+	position: absolute;
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pass{
+	width: 420px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 60px;
+    background-color: #F4F3F5;
+}
+.pass p{
+	position: absolute;
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.forget{
+	width: 420px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.forget h2{
+	text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6200EA;
+    letter-spacing: 2.4px;
+}
+.button1{
+	width: 420px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #6200EA;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: white;
+    font-weight: bold;
+	letter-spacing: 2.4px;
+	border-color: #6200EA;
+}
+.button2{
+	margin-top: 15px;
+    margin-left: 60px;
+    width: 420px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: white;
+    color: #6200EA;
+    font-weight: bold;
+	letter-spacing: 2.4px;
+	border-color: #6200EA;
+}
+footer {
+	width: 100%;
+    height: 100px;
+    background-color: #211138;
+    position: absolute;
+	margin-top: 735px;
+	text-align: center;
+	color: white;
+	
+}
+
+footer h1 {
+	margin-top: 43px;
+}

@@ -1,0 +1,426 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.left{
+    width: 400px;
+    height: 900px;
+    position: absolute;
+}
+.search{
+    height: 50px;
+    width: 370px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #F4F3F5;
+}
+.search h1{
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 14px;
+    color: #211138;
+    position: absolute;
+}
+.search1{
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 335px;
+}
+.column{
+    width: 400px;
+    height: 80px;
+}
+.amy{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+}
+.column h1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.column p{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 14px;
+}
+.column1{
+    width: 400px;
+    height: 80px;
+}
+.mark{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+}
+.column1 h1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.column1 p{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 14px;
+}
+.column2{
+    width: 400px;
+    height: 80px;
+}
+.jacob{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+}
+.column2 h1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.column2 p{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 14px;
+}
+.column3{
+    width: 400px;
+    height: 80px;
+}
+.chris{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+}
+.column3 h1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.column3 p{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 14px;
+}
+.column4{
+    width: 400px;
+    height: 80px;
+}
+.mia{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+}
+.column4 h1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.column4 p{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 14px;
+}
+.column5{
+    width: 400px;
+    height: 80px;
+}
+.jane{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+}
+.column5 h1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.column5 p{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    font-size: 14px;
+}
+.button{
+    background-color: white;
+    width: 370px;
+    height: 50px;
+    border-radius: 24px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-color: #6200EA;
+    color: #6200EA;
+    letter-spacing: 2.4px;
+}
+.right{
+    width: 1200px;
+    height: 900px;
+    margin-left: 400px;
+    background-color: #F4F3F5;
+}
+.box{
+    max-width: 1200px;
+    height: 80px;
+    background-color: #6200EA;
+}
+.box h1{
+    margin-top: 28px;
+    position: absolute;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo{
+    height: 50px;
+    margin-left: 510px;
+    margin-top: 15px;
+    position: absolute;
+}
+.box p{
+    height: 15px;
+    margin-left: 940px;
+    margin-top: 33px;
+    width: 128px;
+    position: absolute;
+    color: #FFFFFF;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+}
+.student{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 1060px;
+    height: 40px;
+}
+.box2 .amy{
+    margin-left: 60px;
+    margin-top: 5px;
+    position: absolute;
+}
+.box2 p{
+    margin-top: 40px;
+    margin-left: 120px;
+    letter-spacing: 2.4px;
+    color: #B2ACBA;
+}
+.comment1{
+    width: 600px;
+    height: 80px;
+    font-size: 12px;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 120px;
+    text-align: left;
+    display: inline-flex;
+    border-radius: 0px 15px 15px 15px;
+}
+.comment1 h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+.comment2{
+    height: 60px;
+    width: 440px;
+    margin-top: 10px;
+    margin-left: 120px;
+    background-color: white;
+    border-radius: 0px 15px 15px 15px;
+    position: absolute;
+}
+.comment2 h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.comment3{
+    width: 960px;
+    position: absolute;
+    height: 40px;
+    margin-left: 120px;
+    text-align: right;
+    letter-spacing: 2.4px;
+    color: #B2ACBA;
+    margin-top: 80px;
+}
+.comment4{
+    width: 480px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 600px;
+    background: #B2ACBA;
+    border-radius: 15px 15px 0px 15px;
+    position: absolute;
+}
+.comment4 h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    position: absolute;
+    color: white;
+}
+.student1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 490px;
+    margin-top: 30px;
+}
+.box3 h2{
+    width: 960px;
+    height: 15px;
+    margin-top: 190px;
+    margin-left: 120px;
+    color: #B2ACBA;
+    letter-spacing: 2.4px;
+}
+.comment5{
+    width: 600px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 120px;
+    background-color: white;
+    border-radius: 0px 15px 15px 15px;
+    font-size: 14px;
+    position: absolute;
+}
+.comment5 h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+
+}
+.comment6{
+    width: 440px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 640px;
+    background: #B2ACBA;
+    border-radius: 15px 15px 0px 15px;
+    position: absolute;
+}
+.comment6 h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
+.comment7{
+    width: 220px;
+    height: 60px;
+    margin-top: 165px;
+    margin-left: 860px;
+    background: #B2ACBA;
+    border-radius: 15px 15px 0px 15px;
+    position: absolute;
+}
+.student2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.comment7 h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+}
